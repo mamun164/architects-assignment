@@ -108,7 +108,6 @@ font-family: 'Work Sans', sans-serif;
 .feature-title1st{
     color: #727272;
 }
-
 .feature-title2nd{
     color: #FF900E;
 }
@@ -278,9 +277,9 @@ top: 30px;
 
 @media screen and (max-width:668px) {
     .header{
-     position: relative;
-     right: 80px;
-        width: 100%;
+     width: 100%;
+margin-left: 0;
+margin-right: 0;
         height: auto;
     }
     .header-title{
@@ -315,6 +314,9 @@ top: 30px;
         gap: 20px;
         
     }
+    .feature{
+        margin-right: 200px;
+    }
    
     .all-features{
         display: flex;
@@ -322,17 +324,18 @@ top: 30px;
         margin-left: 30px;
         margin-top: -200px;
         margin-bottom: 20px;
+        padding: 0;
     }
-  
-   .feature-title2{
-    font-size: 30px;
-   }
+    .items{
+        width: 100%;
+      }
+        
     .feature-img{
         display: grid;
         grid-template-columns: 1fr;
         margin-top: 20px;
     }
-    .feature-details-section{
+  .feature-details-section{
         width: auto;
         height: auto;
         display: flex;
@@ -362,7 +365,9 @@ top: 30px;
         width: auto;
         position: static;
         margin-top: 35px;
-       
+    }
+    .icon-title{
+       display: none;
     }
     .big-btn{
         position: static;
