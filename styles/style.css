@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@500&display=swap');
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+  }
+
+.header{
+    background-color: #FF900E1A;
+    width:1680px ;
+    height: 1200px;
+    margin-left:115px ;
+    
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    ;
+}
+.header-title{
+    padding-left: 108px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    ;
+}
+
+.nav-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+   padding-right: 200px;
+   padding-top: 45px;
+   color: #424242;
+   font-size: 18px;
+   font-weight: 500;
+    
+}
+.heading{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.heading-details{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 30px;
+    
+}
+.header-btn{
+   position: relative; 
+   margin-left: 750px;
+   
+   
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    ;
+    ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.banner-img{
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 1440px;
+    height: 700px;
+}
+
+/* main section style  */
+
+/* feature section style */
+.all-features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+    margin-left: 130px;
+    padding-top: 85px;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   column-gap: 24px;
+    row-gap: 24px;
+}
+.about-feature{
+    position: relative;
+    margin-top: 150px;
+    
+}
+.feature-title1st{
+    color: #727272;
+}
+.feature-title2nd{
+    color: #FF900E;
+}
+/*       */
+.feature-details-section{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ margin-left:240px ;
+ margin-top: 130px;
+}
+.feature-title{
+    margin-bottom: 60px;
+}
+.feauter-title2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.all-details{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.deatils-box{
+    background-color: #ffffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px;
+}
