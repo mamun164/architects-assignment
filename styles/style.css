@@ -91,6 +91,7 @@ font-family: 'Work Sans', sans-serif;
     column-gap: 60px;
     margin-left: 130px;
     padding-top: 85px;
+   
 }
 .feature-img{
     display: grid;
@@ -117,8 +118,9 @@ font-family: 'Work Sans', sans-serif;
     height: 1060px;
  display: grid;
  grid-template-columns: repeat(2, 1fr);
+
  column-gap: 150px;
- margin-left:100px ;
+ margin-left:250px ;
  margin-top: 130px;
  
    
