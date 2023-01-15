@@ -129,11 +129,12 @@ font-family: 'Work Sans', sans-serif;
 .feature-title{
     margin-bottom: 60px;
 }
-.feauter-title2{
+.feature-title2{
     font-size: 45px;
     font-weight: 700;
     padding-left: 10px;
     margin-top: 8px;
+    border-left: 5px solid orangered;
 }
 .all-details{
     color: #727272;
@@ -197,7 +198,7 @@ font-family: 'Work Sans', sans-serif;
     height: 200px;
     border: 2px solid #FF900E;
     border-radius: 8px;
-    transition: width 3s, height 3s, transform 3s;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 .icon-box:hover{
