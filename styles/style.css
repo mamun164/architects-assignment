@@ -20,6 +20,10 @@ font-family: 'Work Sans', sans-serif;
     
     ;
 }
+.nav1{
+      text-decoration: none;  
+      color: #131313;
+}
 .header-title{
     padding-left: 108px;
     font-weight: 700;
@@ -237,6 +241,10 @@ top: 30px;
 .footer p{
     padding-top: 30px;
 }
+.name{
+    color: orangered;
+    font-weight: 600;
+}
 
 /* media query */
 
@@ -264,10 +272,12 @@ top: 30px;
         display: flex;
         flex-direction: column;
     }
+   
     .nav-item{
         display: flex;
         flex-direction: column;
         gap: 20px;
+        
     }
    
     .all-features{
@@ -311,6 +321,7 @@ top: 30px;
         text-align: center;
         width: auto;
         position: static;
+       
     }
     .big-btn{
         position: static;
